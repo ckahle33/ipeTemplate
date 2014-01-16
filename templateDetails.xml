@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+	<name>ipe_template</name>
+	<version>1.0</version>
+	<creationDate>11/6/2013</creationDate>
+	<author>Adam Lebo</author>
+	<authorEmail>webmaster@cns.utexas.edu</authorEmail>
+	<copyright>Copyright (C) 2013 University of Texas at Austin, InterProfessional Education. All rights reserved.</copyright>
+	<description>UTIPE Site Template</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>css</folder>
+		<folder>bootstrap</folder>
+	</files>
+	<positions>
+		<position>logo</position>
+		<position>debug</position>
+		<position>top_menu</position>
+		<position>top_right</position>
+		<position>showcase</position>
+		<position>feature-1</position>
+		<position>feature-2</position>
+		<position>below-feature</position>
+		<position>maincol-1</position>
+		<position>maincol-2</position>
+		<position>maincol-3</position>
+		<position>sidebar-1</position>
+		<position>breadcrumbs</position>
+		<position>footer</position>
+	</positions>
+	<config>
+		<fields name="params">
+			<fieldset name="options">
+				<field name="setLayout"
+				label="Page Layout" 
+				description="Choose page layout"
+				type="list"
+				default=""
+				>
+					<option value="home">Home Page</option>
+					<option value="fullPage">Full Width Content</option>
+					<option value="wideRight">Wide Right</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
